@@ -1,0 +1,32 @@
+html.body{
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.swrapper{
+	margin: 0 auto;
+}
+.pull_left{
+	float: left;
+}
+.pull_right{
+	float: right;
+}
+.clearfix{
+	*zoom: 1;
+	&::before,&::after{
+		content: '';
+		display: block;
+	}
+	&::after{
+		clear:both;
+	}
+}
